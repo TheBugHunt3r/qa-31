@@ -116,6 +116,7 @@ public class MyHomeWork {
             System.out.println("Средние арифметические массивов равны");
         }
     }
+
 }
 
 

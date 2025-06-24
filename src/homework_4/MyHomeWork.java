@@ -5,10 +5,8 @@ import java.util.Scanner;
 
 public class MyHomeWork {
     public static void main(String[] args) {
-        setFirstArray();
-        deleteNumbers();
-        setRandomArray();
-        setTwoArrays();
+
+
     }
 
     public static void setFirstArray() {
@@ -64,13 +62,13 @@ public class MyHomeWork {
         System.out.print("Укажите размер массива: ");
         int arraySize = input.nextInt();
         int[] randomArray = new int[arraySize];
-        for (int index = 1; index < randomArray.length; index++) {
+        for (int index = 0; index < randomArray.length; index++) {
             System.out.println(random.nextInt(1, 11));
         }
         int min = randomArray[0];
         int max = randomArray[0];
         int sum = randomArray[0];
-        for (int index = 1; index < arraySize; index++) {
+        for (int index = 0; index < arraySize; index++) {
             if (randomArray[index] < min) {
                 min = randomArray[index];
             }

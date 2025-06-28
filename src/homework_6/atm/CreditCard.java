@@ -9,8 +9,7 @@ public class CreditCard {
         this.creditCardBalance = creditCardBalance;
     }
 
-    public CreditCard() {
-    }
+
 
     public String getCreditCardInformation() {
         return "Credit card account number is: " + creditCardAccountNumber + "\n" +
